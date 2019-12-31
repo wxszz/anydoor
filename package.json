@@ -1,0 +1,28 @@
+{
+    "name": "anydoor",
+    "version": "1.0.0",
+    "description": "NodeJS Practice P roject",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wxszz/anydoor.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wxszz/anydoor/issues"
+    },
+    "homepage": "https://github.com/wxszz/anydoor#readme",
+    "devDependencies": {
+        "pre-commit": "^1.2.2"
+    }
+}
