@@ -1,5 +1,5 @@
 {
-    "name": "anydoor",
+    "name": "wgz-cli",
     "version": "1.0.0",
     "description": "NodeJS Practice P roject",
     "main": "src/app.js",
