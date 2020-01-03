@@ -1,0 +1,15 @@
+{
+  "restarttable": "rs",
+  "ignore": [
+    ".svn",
+    ".git",
+    "node_modules/**/node_modules",
+    ".eslintrc.js",
+    ".eslintignore",
+    ".gitignore",
+    ".npmignore",
+    "README.md"
+  ],
+  "verbose": true,
+  "ext": "js json ejs"
+}

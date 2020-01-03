@@ -2,11 +2,15 @@
     "name": "anydoor",
     "version": "1.0.0",
     "description": "NodeJS Practice P roject",
-    "main": "index.js",
+    "main": "src/app.js",
+    "bin": {
+        "wgz": "bin/wgz"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint .",
-        "fix": "eslint --fix ."
+        "fix": "eslint --fix .",
+        "dev": "nodemon src/app.js"
     },
     "pre-commit": [
         "fix",
@@ -23,6 +27,13 @@
     },
     "homepage": "https://github.com/wxszz/anydoor#readme",
     "devDependencies": {
+        "chalk": "^3.0.0",
+        "ejs": "^3.0.1",
+        "handlebars": "^4.5.3",
+        "nodemon": "^2.0.2",
         "pre-commit": "^1.2.2"
+    },
+    "dependencies": {
+        "yargs": "^15.1.0"
     }
 }
